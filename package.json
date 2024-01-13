@@ -1,0 +1,16 @@
+{
+  "name": "@ferstack/on-env",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "src",
+    "bin"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@changesets/cli": "2.27.1"
+  },
+  "bin": {
+    "on-env": "bin/cmd.js"
+  }
+}
