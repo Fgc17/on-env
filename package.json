@@ -1,7 +1,10 @@
 {
   "name": "@ferstack/on-env",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A command line for running npm scripts conditionally",
   "files": [
     "src",
     "bin"

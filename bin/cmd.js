@@ -17,7 +17,7 @@ function execCommand(command) {
 }
 
 if (args[0] != node_env) {
-  process.exit(1);
+  process.exit(0);
 } else {
   execCommand(args.slice(1).join(" "));
 }
